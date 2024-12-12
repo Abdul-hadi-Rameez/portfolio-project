@@ -15,6 +15,8 @@ import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 import { MatCardModule } from '@angular/material/card';
 import { RegisterComponent } from './register/register.component';
+import { HadiComponent } from './hadi/hadi.component';
+import { MisbahComponent } from './misbah/misbah.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { RegisterComponent } from './register/register.component';
     AboutComponent,
     ServicesComponent,
     ContactComponent,
-    RegisterComponent
+    RegisterComponent,
+    HadiComponent,
+    MisbahComponent
     
   ],
   imports: [
